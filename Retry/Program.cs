@@ -16,7 +16,8 @@ namespace Retry
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login_Screen());
+            //Application.Run(new Form1());
         }
     }
 }
